@@ -65,7 +65,7 @@ To write a C program for passing structure as function and returning a structure
 7.	Return 0
  
 ## Program:
-```
+```c
 #include<stdio.h>
 struct numbers
 {
@@ -115,7 +115,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 ## Program:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -158,7 +158,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 ## Program:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -220,7 +220,7 @@ The aim of this program is to dynamically allocate memory to store information a
 13.End the program by returning 0.
 
 ## Program:
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject
@@ -274,7 +274,7 @@ To write a C program print the lowercase English word corresponding to the numbe
 4.	Exit the program.
  
 ## Program:
-```
+```c
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -357,7 +357,7 @@ Algorithm:
  
 ## Program:
 
-```
+```c
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -405,7 +405,7 @@ Free the memory allocated for each string in s Free the memory allocated for s
 7.	End
  
 ## Program:
-```
+```c
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -482,7 +482,7 @@ To write a C program to print a pattern of numbers from 1 to n as shown below.
 7.	End
  
 ## Program:
-```
+```c
 #include<stdio.h> 
 int main()
 {
@@ -530,7 +530,7 @@ o	Call the square() function and display the result.
 
 ## Program:
 
-```
+```c
 #include <stdio.h>
 void square();
 int main()
@@ -566,7 +566,7 @@ To write a C program to display stack elements using an array.
 7.	Use the display function to visualize the stack's contents
  
 ## Program:
-```
+```c
 int stack[40],top,i;
 void display()
 {
@@ -594,7 +594,7 @@ To create a C program to push the given element in to a stack using array.
 4.	Call the push function as needed.
  
 ## Program:
-```
+```c
 int size=3,top=1;
 float stack[40];
 void push (float data)
@@ -629,7 +629,7 @@ To write a C program to display queue elements using array
 4.	Call the display function and perform other queue operations as needed.
  
 ## Program:
-```
+```c
 int queue[50], rear, front,i;
 void display()
 {
@@ -667,7 +667,7 @@ To write a C program to insert elements in queue using array.
 4.	Call the enqueue function as needed.
 
 ## Program:
-```
+```c
 int size=4, rear=-1, front=-1;
 float queue[50];
 void enqueue(float data)
@@ -709,7 +709,7 @@ o	Increment the front pointer by 1 to remove the element and point to the next e
 o	After deletion, check if the front pointer has passed the rear pointer (front > rear). If this is true, reset both front and rear to -1, indicating that the queue is now empty.
 4.	End the Function.
 ## Program:
-```
+```c
 int front, rear;
 void dequeue()
 {
@@ -742,7 +742,7 @@ To write a C program to search a given element in the given linked list.
 4.	Call the search function and perform other linked list operations as needed.
  
 ## Program:
-```
+```c
 struct Node
 {
    struct Node *next;
@@ -797,7 +797,7 @@ To write a C program to insert a node in a linked list.
  
 ## Program:
 
-```
+```c
 struct Node
 {
    char data;
@@ -847,7 +847,7 @@ To write a C program to traverse a doubly linked list.
  
 ## Program:
 
-```
+```c
 struct Node
 {
    struct Node *prev;
@@ -886,7 +886,7 @@ To write a C program to insert an element in doubly linked list
 5.	Set the new node's prev pointer to the last node and update the last node's next pointer to the new node.
  
 ## Program:
-```
+```c
 struct Node
 {
    struct Node *prev;
@@ -953,7 +953,7 @@ o	If the element is not found in any node, print a message indicating the elemen
 
 ## Program:
 
-```
+```c
 struct Node
 {
     char data; 
@@ -1003,7 +1003,7 @@ To write a C program to create a function to find the greatest number
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 ## Program:
-```
+```c
 #include<stdio.h>
 int max_of_four(int a,int b,int c,int d)
 {
@@ -1061,7 +1061,7 @@ To write a C program to print the maximum values for the AND, OR and XOR compari
 7.	Call the calculate_the_max function with input values.
  
 ## Program:
-```
+```c
 #include<stdio.h>
 void calculate_the_max(int n,int k)
 {
@@ -1120,7 +1120,7 @@ To write a C program to write the logic for the requests
 5.	Use a for loop to iterate over the queries.
  
 ## Program:
-```
+```c
 #include<stdio.h> 
 int main()
 {
@@ -1187,7 +1187,7 @@ To write a C program print the sum of the integers in the array.
 
 
 ## Program:
-```
+```c
 #include<stdio.h>
 int main()
 {
@@ -1235,7 +1235,7 @@ o	If a character is not a space, it may belong to a word. If it's the first non-
 
 
 ## Program:
-```
+```c
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -1281,7 +1281,7 @@ To write a C program to display stack elements using linked list.
 7.	Move to the next node using the next pointer.
  
 ## Program:
-```
+```c
 struct Node
 {
     int data;
@@ -1322,7 +1322,7 @@ To write a C program to pop an element from the given stack using liked list.
 4.	Set head to point to the next node in the stack.
  
 ## Program:
-```
+```c
 struct Node
 {
     int data;
@@ -1365,7 +1365,7 @@ To write a C program to display queue elements using linked list.
 5.	End the display function.
  
 ## Program:
-```
+```c
 struct Node
 {
     char data;
@@ -1415,7 +1415,7 @@ To write a C program to insert elements in queue using linked list
 6.	End of Enqueue Operation
  
 ## Program:
-```
+```c
 struct Node
 {
    int data;
@@ -1465,7 +1465,7 @@ o	If the queue is empty (i.e., the front pointer is NULL), return an error or a 
 o	If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 
 ## Program:
-```
+```c
 struct Node
 {
    char data;
