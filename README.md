@@ -15,6 +15,7 @@ Else
 -	Print "Vaccine Eligibility: Yes"
 5.	Print details (e.age, e.n)
 6.	Return 0
+
  
 ## Program:
 ```c
